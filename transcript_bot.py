@@ -176,18 +176,18 @@ def answer_query(query: str):
 
 # 8. CLI interface for testing
 if __name__ == "__main__":
-    print("🧠 TranscriptBot is ready!")
+    print("TranscriptBot is ready!")
     print("Type your question (or 'quit'):\n")
     while True:
         try:
             q = input("🔍 Your question: ").strip()
             if q.lower() in ['exit', 'quit']:
-                print("👋 Goodbye!")
+                print("End!")
                 break
             if q:
-                print("\n📋 Answer:")
+                print("\n Answer:")
                 print(answer_query(q))
         except KeyboardInterrupt:
-            print("\n👋 Goodbye!")
+            print("\n End!")
             break
 
