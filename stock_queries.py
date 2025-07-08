@@ -121,6 +121,6 @@ def answer_query(query: str) -> str:
             f"- Sensex Return: {returns['Sensex Return (%)']}%"
         )
 
-    return "❓ Sorry, I couldn't understand your stock-related question."
+    return "  couldn't understand your stock-related question."
 
 
